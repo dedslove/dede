@@ -1,13 +1,13 @@
 // Liste des photos à comparer
 const photos = [
-    "images/photo1.jpg",
-    "images/photo2.jpeg",
-    "images/photo3.jpeg",
-    "images/photo4.png",
-    "images/photo5.png",
-    "images/photo6.png",
-    "images/photo7.jpegg",
-    "images/photo8.png"
+    "photo1.jpg",
+    "photo2.jpeg",
+    "photo3.jpeg",
+    "photo4.png",
+    "photo5.png",
+    "photo6.png",
+    "photo7.jpegg",
+    "photo8.png"
 ];
 
 // Créer un objet pour stocker les scores
