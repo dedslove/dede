@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Comparaison de Photos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Choisissez la meilleure photo</h1>
+    
+    <h2>Quelle photo est la meilleure selon vous </h2>
+
+    <div id="duel">
+        <div class="photo-container" id="left-photo" onclick="choosePhoto('left')">
+            <img src="" alt="Photo gauche" id="img-left">
+        </div>
+
+        <div class="photo-container" id="right-photo" onclick="choosePhoto('right')">
+            <img src="" alt="Photo droite" id="img-right">
+        </div>
+    </div>
+
+    <div id="winner" style="display:none;">
+        <h2>Photo Gagnante Finale ! 🏆</h2>
+        <img id="final-photo" src="" alt="Gagnante">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

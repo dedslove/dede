@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 30px;
+    background: #f0f0f0;
+}
+
+#duel {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.photo-container {
+    margin: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.photo-container:hover {
+    transform: scale(1.05);
+}
+
+.photo-container img {
+    width: 300px;       /* largeur fixe */
+    height: 400px;      /* hauteur fixe */
+    object-fit: cover;  /* coupe l'image pour remplir sans déformation */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#winner img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#classement {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.classement-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.classement-item img.mini-photo {
+    width: 80px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.classement-item span {
+    font-size: 18px;
+}
